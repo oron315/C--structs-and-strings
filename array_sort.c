@@ -41,6 +41,7 @@ int main() {
         scanf("%d", &integers_arr[i]);
     }
 
+    printf("The addresses before sorting:\n");
     print_arr_and_pointers(pointers_arr);
     // Going over all the combinations to swap anf get the lowest number
     for(int i = 0; i < ARRAY_SIZE; ++i){
@@ -51,6 +52,7 @@ int main() {
         } 
     }
 
+    printf("The addresses after sorting:\n\n");
     print_arr_and_pointers(pointers_arr);
 
     return 0;
