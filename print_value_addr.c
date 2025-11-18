@@ -13,7 +13,7 @@
 int main() {
     //Setting variables for input
     int arr[ARRAY_LENGTH] = {0};
-    char string[ARRAY_LENGTH];
+    char string[ARRAY_LENGTH] = {'\0'};
 
     printf("Enter an array of %d integers.\n", ARRAY_LENGTH);
     for(int i = 0; i < ARRAY_LENGTH; ++i){
